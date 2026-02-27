@@ -6,3 +6,5 @@ var firstval = 42;
 var secondval = 1;
 var sumOfvals = (firstval + secondval).toLocaleString();
 //addition(sumOfvals);
+
+
