@@ -1,0 +1,8 @@
+<h2>Student App</h2>
+<ol>
+@for(x of students; track x){<!--using @for to access and displkay student details-->
+<li>{{x.id}},{{x.name}},{{x.address}}</li>
+}
+</ol>
+<h2>Weather in Galway</h2>
+<p>{{weather[0].main}}, {{weather[0].description}}</p><!-- data from weathersevice -->
